@@ -5,6 +5,7 @@ public class SimpleApp {
 		// TODO Auto-generated method stub
 		//questo è un commento
 		//questo è un altro commento
+		//questo � una altro commwnto 2
 	}
 
 }
