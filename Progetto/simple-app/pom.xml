@@ -3,5 +3,28 @@
   <groupId>edu.berkely</groupId>
   <artifactId>simple-app</artifactId>
   <version>1.0</version>
+  <packaging>jar</packaging>
   <name>Simple Application</name>
+  <dependencies>
+    <dependency> <!-- Spark dependency -->
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-core_2.10</artifactId>
+      <version>1.6.0</version>
+    </dependency>
+    <dependency> <!-- Hadoop dependency -->
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-client</artifactId>
+      <version>2.7.1</version>
+    </dependency>
+    <dependency>
+	<groupId>org.apache.spark</groupId>
+	<artifactId>spark-graphx_2.10</artifactId>
+	<version>1.6.0</version>
+	<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>${scala.version}</version>
+		</dependency>
+</dependency>
+  </dependencies>
 </project>
